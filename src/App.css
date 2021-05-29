@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.gameHead {
+  color: #000;
+}
+.gameHead_paraContain {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.gameHead__para {
+  margin: 0;
+  font-size: 14px;
+}
+
+.gameFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80px;
+}
+
+.gameFooter__btn {
+  padding: 8px 20px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 3px;
+  background: #282C34;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+.boardContainer {
+  background: #fff;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  padding: 0 30px;
+}
+
+.boardContainer__row {
+  flex: 33%;
+  display: flex;
+  flex-direction: row;
+}
+
+.squareWrap {
+  flex: 33%;
+  height: 100%;
+  border: 1px solid #eee;
+  cursor: pointer;
+  color: #000;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.squareWrap.filled {
+  background: #90ee90;
+  color: #fff;
+  pointer-events: none;
+}
+
+.inputField {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.getNameModal {
+  width: 500px;
+  border-radius: 6px;
+}
+.playerForm {
+  text-align: center;
+}
+.playerForm .gameHead__text {
+  margin-top: 0;
+}
+
+.playerForm__btn {
+  padding: 8px 20px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 3px;
+  background: #282C34;
+  color: #fff;
+  font-size: 16px;
+}
